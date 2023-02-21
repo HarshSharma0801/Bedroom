@@ -11,10 +11,9 @@ public class Main {
 
         Lamp lamp = new Lamp("Classic", false, 75);
 
-        Bedroom bedRoom = new Bedroom("YOUR NAME HERE", wall1, wall2, wall3, wall4, ceiling,bed, lamp);
+        Bedroom bedRoom = new Bedroom("Harsh", wall1, wall2, wall3, wall4, ceiling,bed, lamp);
         bedRoom.makeBed();
         bedRoom.getLamp().turnOn();
-
 
     }
 }
